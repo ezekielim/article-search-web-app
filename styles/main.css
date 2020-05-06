@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: mediumslateblue;
+  background-color: lightcyan;
   background-size: cover;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -34,6 +34,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 0.5rem;
+  opacity: 0.6;
 }
 
 .header .form__btn {
@@ -44,10 +45,9 @@ body {
           box-sizing: border-box;
   font-size: 1.2rem;
   border: 1px solid gray;
-  -webkit-box-shadow: 1.2rem black;
-          box-shadow: 1.2rem black;
   border-radius: 0.5rem;
-  background-color: chartreuse;
+  background-color: burlywood;
+  opacity: 0.8;
 }
 
 .intro-section {
@@ -59,5 +59,16 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.para {
+  width: 75%;
+  padding: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.05rem solid burlywood;
 }
 /*# sourceMappingURL=main.css.map */

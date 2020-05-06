@@ -4,10 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web App</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <section class="main-container">
-      <section class="article-section"></section>
+      <header class="header">
+        <h1>Search The New York Times</h1>
+        <form id="search-form" class="header__form" action="">
+          <input
+            type="text"
+            name="search"
+            id="search-id"
+            class="form__input"
+            placeholder="search articles here"
+          />
+          <button class="form__btn" name="search-btn" type="submit">
+            SUBMIT
+          </button>
+        </form>
+      </header>
+      <section class="intro-section">
+        <h3>Accessing articles from 2012 at your finger tips</h3>
+      </section>
+      <section id="article-section-id" class="article-section"></section>
     </section>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./scripts/script.js"></script>
   </body>
 </html>

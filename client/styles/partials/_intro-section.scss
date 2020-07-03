@@ -1,16 +1,13 @@
 .intro-section {
   width: 100%;
   display: flex;
-  margin-left: 15rem;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 .para {
-  width: 40%;
+  width: 75%;
   padding: 0.5rem;
-  display: flex;
-  flex-direction: column;
-  // margin-left: auto;
-  // margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
   border: 0.05rem solid burlywood;
 }
